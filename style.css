@@ -205,6 +205,6 @@ body{
 }
 @media screen and (max-width:400px) {
     .main{
-        transform: scale(0.8); 
+        transform: scale(0.5); 
     }
 }
