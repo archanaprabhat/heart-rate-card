@@ -203,3 +203,8 @@ body{
     #5b5b5b 100%
   );
 }
+@media screen and (max-width:400px) {
+    .main{
+        transform: scale(0.8); 
+    }
+}
