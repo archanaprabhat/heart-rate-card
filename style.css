@@ -16,6 +16,8 @@ body{
 .main{
     display: flex;
     gap: 46px;
+    flex-wrap: wrap;  
+    justify-content: center;
 }
 
 .card{
@@ -32,11 +34,21 @@ body{
     width: inherit;
     color: white;
     padding: 33px;
+}
+
+.red-card .black-part{
+  background: radial-gradient(
+    circle at 80% 105%,
+    rgba(107, 58, 62, 1) 0%,
+    rgba(2, 2, 2, 1) 28%
+  );
+}
+
+.green-card .black-part{
     background: radial-gradient(
-        circle at 80% 95%,
-        rgba(107,58,62,1)0%,
-        rgba(2, 2, 2, 1) 55%
-    );
+        circle at 80% 105%,
+         rgba(10, 77, 8, 1) 5%,
+     rgba(0, 0, 0, 1) 25%);
 }
 
 
@@ -49,7 +61,6 @@ body{
 
 .HeartRate{
     height: 33px;
-    width: 196px;
     font-size: 40px;
     font-weight:600 ;
     display: flex;
@@ -81,7 +92,7 @@ body{
     font-size: 21.9px;
     display: flex;
     align-items: center;
-    color: #6f6f6f;
+    color: #656565;
 }
 
 .actual-main{
@@ -103,7 +114,7 @@ body{
     font-size: 19.5px;
     display: flex;
     align-items: flex-end;
-    color: #6f6f6f;
+    color: #656565;
 }
 
 .ext{
@@ -134,7 +145,7 @@ body{
 }
 
 .freq{
-    color: #6f6f6f;
+    color: #616161;
     display: flex;
     gap: 93px;
     margin-bottom: 22px;
@@ -163,6 +174,32 @@ body{
     line-height: 0.8;
 }
 
-.red-card .line {
-  background: linear-gradient(to right, #575757, rgba(107, 58, 62, 1) 100%, #575757 );
+  .red-card .line {
+  background: linear-gradient(
+    to right,
+    #5b5b5b 55%,
+    #645656 65%,
+    #8d6466 70%,
+    #946466 76%,
+    #996465 80%,
+    #796464 88%,
+    #7a6464 89%,
+    #806363 90%,
+    #5b5b5b 100%
+  );
+}
+
+.green-card .line {
+  background: linear-gradient(
+    to right,
+    #5b5b5b 55%,
+   #596456 65%,
+   #708d6f 70%,
+   #6f9472 76%,
+   #6f9975 80%,
+   #647964 88%,
+   #647a65 89%,
+   #638064 90%,
+    #5b5b5b 100%
+  );
 }
