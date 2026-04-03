@@ -4,74 +4,81 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Encode+Sans+Semi+Expanded:wght@100;200;300;400;500;600;700;800;900&family=IM+Fell+Great+Primer:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playwrite+NO:wght@100..400&family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
     <title>Heart Rate</title>
   </head>
   <body>
     <div class="main">
-      <div class="red-card">
-        <div class="black-part">
-          <div class="header">
-            <div class="HeartRate red">Heart Rate</div>
-            <div class="icon-heart red"></div>
-          </div>
-          <div class="main">
-            <div class="date">Today 09:47 AM</div>
-            <div class="actual-main">
-              <div class="value">86</div>
-              <div class="bpm">BPM</div>
-            </div>
-          </div>
-        </div>
-        <div class="line"></div>
-        <div class="bottom"></div>
-        <div class="average">Average</div>
-        <div class="freq">
-            <div>Weekly</div>
-            <div>Monthly</div>
-        </div>
-        <div class="vals">
-            <div class="first">
-                <div>96</div>
-                <div>BPM</div>
-            </div>
-            <div class="second">
-                <div>77</div>
-                <div>BPM</div>
-            </div>
-        </div>
+<div class="card">
+    <div class="radial">
+  <div class="black-part">
+    <div class="header">
+      <div class="HeartRate red">Heart rate</div>
+      <div class="icon-heart red"><img src="./assets/red-heart.svg" alt=""></div>
+    </div>
+    <div class="hero">
+      <div class="date">Today 09:47 AM</div>
+      <div class="actual-main">
+        <div class="value">86</div>
+        <div class="bpm ext">BPM</div>
       </div>
-      <div class="green-card">
-        <div class="black-part">
-          <div class="header">
-            <div class="HeartRate green">Heart Rate</div>
-            <div class="icon-heart green"></div>
-          </div>
-          <div class="main">
-            <div class="date">Today 09:47 AM</div>
-            <div class="actual-main">
-              <div class="value">86</div>
-              <div class="bpm">BPM</div>
-            </div>
-          </div>
-        </div>
-        <div class="line"></div>
-        <div class="bottom"></div>
-        <div class="average">Average</div>
-        <div class="freq">
-            <div>Weekly</div>
-            <div>Monthly</div>
-        </div>
-        <div class="vals">
-            <div class="first">
-                <div>96</div>
-                <div>BPM</div>
-            </div>
-            <div class="second">
-                <div>77</div>
-                <div>BPM</div>
-            </div>
-        </div>
+    </div>
+  </div>
+  <div class="line"></div>
+  <div class="grey-part">
+    <div class="average">Average</div>
+    <div class="freq">
+      <div>Weekly</div>
+      <div>Monthly</div>
+    </div>
+    <div class="vals">
+      <div class="first">
+        <div class="num">96</div>
+        <div class="bpm">BPM</div>
       </div>
+      <div class="second">
+        <div class="num">77</div>
+        <div class="bpm">BPM</div>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+<div class="card">
+  <div class="black-part">
+    <div class="header">
+      <div class="HeartRate green">Heart rate</div>
+      <div class="icon-heart green"><img src="./assets/green-heart.svg" alt=""></div>
+    </div>
+    <div class="hero">
+      <div class="date">Today 09:47 AM</div>
+      <div class="actual-main">
+        <div class="value">61</div>
+        <div class="bpm">BPM</div>
+      </div>
+    </div>
+  </div>
+  <div class="line"></div>
+  <div class="grey-part">
+    <div class="average">Average</div>
+    <div class="freq">
+      <div>Weekly</div>
+      <div>Monthly</div>
+    </div>
+    <div class="vals">
+      <div class="first">
+        <div class="num">86</div>
+        <div class="bpm">BPM</div>
+      </div>
+      <div class="second">
+        <div class="num">62</div>
+        <div class="bpm">BPM</div>
+      </div>
+    </div>
+  </div>
+</div>
     </div>
   </body>
 </html>

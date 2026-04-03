@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.main{
+    display: flex;
+    gap: 46px;
+}
+
+.card{
+    width: 338px;
+    height: 380px;
+    border-radius: 22px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+.black-part{
+    height: 215px;
+    width: inherit;
+    color: white;
+    padding: 33px;
+    background: #020202;
+}
+
+.header{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+
+}
+
+.HeartRate{
+    height: 33px;
+    width: 196px;
+    font-size: 40px;
+    font-weight:600 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.red{
+    color: #ee7175;
+}
+
+.green{
+    color: #1fe62c;
+}
+
+.icon-heart{
+    width: 31px;
+    height: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.date{
+    margin-top: 21px;
+    margin-bottom: 10px;
+    height: 18px;
+    width: 166px;
+    font-size: 21.9px;
+    display: flex;
+    align-items: center;
+    color: #6f6f6f;
+}
+
+.actual-main{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.value{
+    font-size: 85px;
+    display: flex;
+    align-items: center;
+    font-feature-settings: "ss01";
+    color: #fefefe;
+    line-height:1;
+}
+
+.bpm{
+    font-size: 19.5px;
+    display: flex;
+    align-items: flex-end;
+    color: #6f6f6f;
+}
+
+.ext{
+    margin-top: 40px;
+}
+
+
+.line{
+    width: 100%;
+    height: 2px;
+    background-color: #575757;
+}
+
+.grey-part{
+    background-color: #212121;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 33px;
+}
+
+.average{
+    color: #fefefe;
+    height: 19px;
+    width: 90px;
+    font-size: 24.3px;
+    line-height: 0.9;
+    margin-bottom: 18px;
+}
+
+.freq{
+    color: #6f6f6f;
+    display: flex;
+    gap: 93px;
+    margin-bottom: 22px;
+}
+
+.freq div{
+    font-size: 20px;
+    line-height: 0.9;
+}
+
+.vals{
+    display: flex;
+    gap:55px ;
+}
+.first, .second{
+    display: flex;
+    align-items: end;
+    gap: 11px;
+}
+
+.num{
+    width: 54px;
+    height: 35px;
+    color: #fefefe;
+    font-size: 45px;
+    line-height: 0.8;
+}
