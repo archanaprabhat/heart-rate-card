@@ -22,10 +22,10 @@ const cardsData = [{
 
 export default function App(){
   return(
-    <>
+    <div className="main">
    {cardsData.map(item => (
     <Card key={item.id} data={item}/>
    ))}
-    </>
+    </div>
   )
 }
