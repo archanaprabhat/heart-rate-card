@@ -83,6 +83,9 @@ body{
     justify-content: center;
     align-items: center;
 }
+.beat{
+    animation: heartbeat 1s;
+}
 
 .date{
     margin-top: 21px;
@@ -207,4 +210,12 @@ body{
     .main{
         transform: scale(0.5); 
     }
+}
+
+@keyframes heartbeat {
+  0%   { transform: scale(1); }
+  25%  { transform: scale(1.1); }
+  40%  { transform: scale(0.95); }
+  60%  { transform: scale(1.1); }
+  100% { transform: scale(1); }
 }
